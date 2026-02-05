@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title fs-1">Music Center</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a href="#sobre-a-loja" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            Eventos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#produtos" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Produtos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#fale-conosco" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Fale conosco
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2500">
+                        <div class="carousel-bg-container">
+                            <div class="bg-blur" style="background-image: url('./images/slides/slide1.png');"></div>
+                            <img src="./images/slides/slide1.png" class="d-block w-50 mx-auto main-img" alt="Prateleira com pedais">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <div class="carousel-bg-container">
+                            <div class="bg-blur" style="background-image: url('./images/slides/slide2.png');"></div>
+                            <img src="./images/slides/slide2.png" class="d-block w-50 mx-auto main-img" alt="Sessão da loja com teclados e pianos">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2500">
+                        <div class="carousel-bg-container">
+                            <div class="bg-blur" style="background-image: url('./images/slides/slide3.png');"></div>
+                            <img src="./images/slides/slide3.png" class="d-block w-50 mx-auto main-img" alt="Área de estúdio da loja">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/loja.png" class="d-block w-100 rounded" alt="Foto do espaço interno da loja">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a <span class="text-colored">loja</span></h2>
+                            <p class="p-sobre">
+                                Nossa história começou há 60 anos, quando nosso CEO Fabiano Brasselotti decidiu encarar o sonho de trabalhar com instrumentos musicais, alugou o galpão que foi a primeira loja da Music Center. Trabalhando sempre com material de qualidade e marcas renomadas, ganhou espaço no mercado e hoje já conta com 150 filiais espalhadas pelo Brasil.
+                            </p>
+                            <h3 class="section-title">Sobre o <span class="text-colored">espaço</span></h3>
+                            <p class="p-sobre">
+                                Nossas lojas contam com espaços devidamente pensados e dedicados a cada músico, com instrumentos de corda, percussão, teclas, sopro e equipamentos como amplificadores, pedais e o tradicional espaço de estúdio, permitindo que nossos clientes façam o teste de cada instrumento antes de concluir sua compra. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Calendário de <span class="text-colored">eventos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/mateus.jpg" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-flask"></i>
+                            Workshop Mateus Asato
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam ut, eos accusamus adipisci placeat qui alias nemo iste non? Sint cum tempora vel animi tenetur asperiores aperiam, repudiandae consequatur.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/cantando.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Roda de conversa e música
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam ut, eos accusamus adipisci placeat qui alias nemo iste non? Sint cum tempora vel animi tenetur asperiores aperiam, repudiandae consequatur.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/rockinrio.png" alt="" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">
+                            <i class="bi bi-music-player"></i>
+                            Venda de ingressos Rock in Rio
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim aperiam ut, eos accusamus adipisci placeat qui alias nemo iste non? Sint cum tempora vel animi tenetur asperiores aperiam, repudiandae consequatur.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="produtos" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-4">
+                        Nossos <span class="text-colored">produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#guitarras" class="fw-bold text-start nav-link text-colored active">Guitarras</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#violoes" class="fw-bold text-start nav-link text-colored">Violões</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#pedais" class="fw-bold text-start nav-link text-colored">Pedais e pedaleiras</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#amplificadores" class="fw-bold text-start nav-link text-colored">Amplificadores</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="guitarras">
+                                <div class="row">
+                                    <div class="col-md-3 produto">
+                                        <img src="images/produtos/guitarras/lp1.png" alt="Gibson Custom 1960 Les Paul Standard Reissue" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson Custom 1960 Les Paul Standard Reissue</h5>
+                                        <p>Heavy Aged, Iced Tea Burst</p>
+                                        <div class="valor">
+                                            <del>$52.000,00</del>
+                                            <p>R$48.300,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3 produto">
+                                        <img src="images/produtos/guitarras/lp2.png" alt="Gibson Slash Les Paul Standard" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson Slash Les Paul Standard</h5>
+                                        <p>Appetite Burst</p>
+                                        <div class="valor">
+                                            <del>R$16.500,00</del>
+                                            <p>R$15.750,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3 produto">
+                                        <img src="images/produtos/guitarras/explorer1.png" alt="Gibson Custom Explorer Custom" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson Custom Explorer Custom</h5>
+                                        <p>Ebony, Gloss</p>
+                                        <div class="valor">
+                                            <del>R$40.000,00</del>
+                                            <p>R$37.150,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3 produto">
+                                        <img src="images/produtos/guitarras/explorer2.png" alt="Gibson Custom 1958 Mahogany" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson Custom 1958 Mahogany Explorer Reissue</h5>
+                                        <p>VOS, Classic White</p>
+                                        <div class="valor">
+                                            <del>R$45.000,00</del>
+                                            <p>R$41.500,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3 produto">
+                                        <img src="images/produtos/guitarras/sg1.png" alt="Gibson Custom 1963 Les Paul SG branca" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson 1963 Les Paul SG</h5>
+                                        <p>VOS, Classic White</p>
+                                        <div class="valor">
+                                            <del>R$40.000,00</del>
+                                            <p>R$35.200,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3 produto">
+                                        <img src="images/produtos/guitarras/sg2.png" alt="Gibson SG Custon bege" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson SG Custom</h5>
+                                        <p>Light Charcoal, Gloss</p>
+                                        <div class="valor">
+                                            <del>R$38.000,00</del>
+                                            <p>R$34.200,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3 produto">
+                                        <img src="images/produtos/guitarras/es1.png" alt="Gibson ES-335 roxa" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson ES-335</h5>
+                                        <p>Dark Purple Burst, Exclusive</p>
+                                        <div class="valor">
+                                            <del>R$25.000,00</del>
+                                            <p>R$22.900,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3 produto">
+                                        <img src="images/produtos/guitarras/es2.png" alt="Suco" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson 1964 ES-335</h5>
+                                        <p>Ultra Light Aged, Sixties Cherry</p>
+                                        <div class="valor">
+                                            <del>R$37.000,00</del>
+                                            <p>R$34.100,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="violoes">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/violoes/gsmini.png" alt="Taylor GS Mini Mahogany" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Taylor GS Mini Mahogany</h5>
+                                        <p>Neo-Tropical Mahogany</p>
+                                        <div class="valor">
+                                            <del>R$3.500,00</del>
+                                            <p>R$3.150,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/violoes/k24ce.png" alt="Taylor K24ce" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Taylor K24ce</h5>
+                                        <p>Hawaiian Koa</p>
+                                        <div class="valor">
+                                            <del>R$35.000,00</del>
+                                            <p>R$31.500,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/violoes/814ce.png" alt="Taylor 814ce" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Taylor 814ce</h5>
+                                        <p>Sitka Spruce</p>
+                                        <div class="valor">
+                                            <del>R$24.000,00</del>
+                                            <p>R$21.000,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/violoes/324ce.png" alt="Taylor 324ce" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Taylor 324ce</h5>
+                                        <p>Neo-Tropical Mahogany</p>
+                                        <div class="valor">
+                                            <del>R$19.000,00</del>
+                                            <p>R$17.300,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/violoes/sj200.png" alt="Gibson Custom 1957 SJ-200 Reissue" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson Custom 1957 SJ-200</h5>
+                                        <p>Light Aged, Dark Natural.</p>
+                                        <div class="valor">
+                                            <del>R$48.000,00</del>
+                                            <p>R$43.500,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/violoes/hummingbird.png" alt="Gibson Custom 1960 Hummingbird Reissue" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson 1960 Hummingbird</h5>
+                                        <p>Heavy Aged, Washed Cherry Sunburst</p>
+                                        <div class="valor">
+                                            <del>R$45.000,00</del>
+                                            <p>R$40.400,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/violoes/j45.png" alt="Gibson Custom 1942 Banner J-45 Reissue" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson Custom 1942 Banner J-45</h5>
+                                        <p>Heavy Aged, Vintage Sunburst</p>
+                                        <div class="valor">
+                                            <del>R$42.000,00</del>
+                                            <p>R$39.400,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/violoes/l00.png" alt="Gibson L-00 Special" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Gibson Custom 1980 L-00 Special</h5>
+                                        <p>Satin Wine Red</p>
+                                        <div class="valor">
+                                            <del>R$13.000,00</del>
+                                            <p>R$10.500,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="pedais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/pedais/gt1000.png" alt="BOSS GT-1000" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">BOSS GT-1000</h5>
+                                        <p>Pedaleira Multiefeitos para guitarra e baixo. O processador de efeitos premium com som de estúdio, pronto para o palco.</p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/pedais/me90.png" alt="BOSS ME-90" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">BOSS ME-90</h5>
+                                        <p>Pedaleira Multiefeitos para guitarra. Sons profissionais em segundos com controles intuitivos e recursos avançados.</p>
+                                        <div class="valor">
+                                            <del>R$4.199,99</del>
+                                            <p>R$3.600,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/pedais/gt1.png" alt="BOSS GT-1" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">BOSS GT-1</h5>
+                                        <p>Pedaleira multiefeitos para guitarra. Sons incríveis, portabilidade máxima e o poder da linha GT ao seu alcance.</p>
+                                        <div class="valor">
+                                            <del>R$2.999,99</del>
+                                            <p>R$2.250,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/pedais/gx100.png" alt="BOSS GX-100" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">BOSS GX-100</h5>
+                                        <p>Pedaleira multiefeitos para guitarra e baixo. Tecnologia de ponta e som profissional no seu pedalboard.</p>
+                                        <div class="valor">
+                                            <del>R$7.599,99</del>
+                                            <p>R$6.900,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/pedais/helix-stadium-xl-floor.png" alt="Line-6 Helix Stadium XL Floor" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Line-6 Helix Stadium XL Floor</h5>
+                                        <p>O Helix Stadium XL Floor é o processador de guitarra mais completo e integrado já criado pela Line 6.</p>
+                                        <div class="valor">
+                                            <del>R$30.000,00</del>
+                                            <p>R$25.499,99</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/pedais/helix-floor.png" alt="Line-6 Helix Floor" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Line-6 Helix Floor</h5>
+                                        <p>O Helix Floor, um processador de efeitos e amplificadores, oferece o som e a sensação autênticos de amplificadores, gabinetes e efeitos modernos e vintage, enquanto sua interface de usuário define o padrão de facilidade de uso.</p>
+                                        <div class="valor">
+                                            <del>R$16.000,00</del>
+                                            <p>R$14.899,99</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/pedais/pod-go-wireless.png" alt="Line-6 Pod Go Wireless" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Line-6 Pod Go Wireless</h5>
+                                        <p>O POD® Go Wireless leva você ao som perfeito através de sua interface plug-and-play, sistema sem fio Relay® e modelos de amplificadores, gabinetes e efeitos de nível profissional.</p>
+                                        <div class="valor">
+                                            <del>R$5.500,00</del>
+                                            <p>R$4.850,00</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/pedais/hx-stomp-xl.png" alt="Line-6 HX Stomp XL" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Line-6 HX Stomp XL</h5>
+                                        <p>O HX Stomp ™ XL, um processador de efeitos e amplificador compacto, oferece a modelagem HX em um pedal profissional pronto para performances, com oito footswitches sensíveis ao toque capacitivo.</p>
+                                        <div class="valor">
+                                            <del>R$8.800,00</del>
+                                            <p>R$7.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="amplificadores">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/amplificadores/tonemasterfr12tweed.png" alt="Fender Tone Master FR-12 Tweed" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Fender Tone Master FR-12 Tweed</h5>
+                                        <p>1,000 Watt Class-D Power Amp, 12" Special Design Speaker</p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/amplificadores/65twinreverb.png" alt="Fender '65 Twin Reverb" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Fender '65 Twin Reverb</h5>
+                                        <p>85 watts, Dual 12" Jensen® C-12K speakers</p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/amplificadores/mustangltx100.png" alt=" Fender Mustang® LTX100" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2"> Fender Mustang® LTX100</h5>
+                                        <p>100-watt combo amplifier, 12” Celestion® G12FSD-100 speaker</p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/amplificadores/frontman20g.png" alt="Fender Frontman® 20G" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Fender Frontman® 20G</h5>
+                                        <p>20 watts, 8" Fender Special Design speaker</p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/amplificadores/studiovintagecombo.png" alt="Marshall Studio Vintage Combo" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Marshall Studio Vintage Combo</h5>
+                                        <p>Compact 20W combo built in the UK, 10” Celestion V-type speaker </p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/amplificadores/jvm410combo.png" alt="Marshall JVM410 Combo" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Marshall JVM410 Combo</h5>
+                                        <p>Versatile 100W combo built in the UK, 2x12" speakers</p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/amplificadores/mg30gfx.png" alt="Marshall MG30GFX Combo" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Marshall MG30GFX Combo</h5>
+                                        <p>Simple 30W combo, 10” custom speaker</p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img src="images/produtos/amplificadores/studio900combo.png" alt="Marshall Studio 900 Combo" class="d-block w-100 rounded">
+                                        <h5 class="text-colored fw-bold mt-2">Marshall Studio 900 Combo</h5>
+                                        <p>The legendary JCM900 tone, in a compact design. 1 x 12” speaker</p>
+                                        <div class="valor">
+                                            <del>R$10.000,00</del>
+                                            <p>R$8.999,10</p>
+                                        </div>
+                                        <button class="btn-mais">Ler mais</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="py-4">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="nome">Seu nome:</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="email">Seu e-mail:</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu telefone(opcional):</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem:</label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 mx-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº 145, Bairro Bootstrap - Natal - RN
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
